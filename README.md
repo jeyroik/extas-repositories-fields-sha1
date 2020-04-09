@@ -1,5 +1,5 @@
-![tests](https://github.com/jeyroik/extas-repositories-fields/workflows/PHP%20Composer/badge.svg?branch=master&event=push)
-![codecov.io](https://codecov.io/gh/jeyroik/extas-repositories-fields/coverage.svg?branch=master)
+![tests](https://github.com/jeyroik/extas-repositories-fields-sha1/workflows/PHP%20Composer/badge.svg?branch=master&event=push)
+![codecov.io](https://codecov.io/gh/jeyroik/extas-repositories-fields-sha1/coverage.svg?branch=master)
 
 # Описание
 
