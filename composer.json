@@ -2,7 +2,8 @@
   "name": "jeyroik/extas-repositories-fields-sha1",
   "description": "Sha1 fields support for extas",
   "require": {
-    "jeyroik/extas-foundation": "5.*"
+    "jeyroik/extas-foundation": "5.*",
+    "jeyroik/extas-repositories-fields": "0.*"
   },
   "require-dev": {
     "phpunit/phpunit": "^9",
