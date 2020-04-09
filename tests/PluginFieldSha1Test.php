@@ -4,7 +4,7 @@ use PHPUnit\Framework\TestCase;
 use Dotenv\Dotenv;
 use extas\components\plugins\PluginRepository;
 use extas\components\plugins\Plugin;
-use extas\components\plugins\repositories\PluginUuidField;
+use extas\components\plugins\repositories\PluginFieldSha1;
 use extas\components\extensions\ExtensionRepository;
 use extas\components\extensions\Extension;
 
@@ -62,7 +62,7 @@ class PluginFieldSha1Test extends TestCase
     protected function installUuidPlugin()
     {
         $this->pluginRepo->create(new Plugin([
-            Plugin::FIELD__CLASS => PluginUuidField::class,
+            Plugin::FIELD__CLASS => PluginFieldSha1::class,
             Plugin::FIELD__STAGE => 'extas.extensions.create.before'
         ]));
     }
