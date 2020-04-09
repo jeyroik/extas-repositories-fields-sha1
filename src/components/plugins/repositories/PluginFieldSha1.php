@@ -28,7 +28,7 @@ class PluginFieldSha1 extends FieldAdaptorPlugin
                 {
                     preg_match('/@sha1\((.*)\)/', $value, $match);
 
-                    return $match[1] ?? $value;
+                    return isset($match[1]) ? sha1($match[1]) : $value;
                 }
 
                 public function isApplicable($value): bool
